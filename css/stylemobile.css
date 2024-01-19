@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  color: #393d41;
+  font-size: 1.2rem;
+  max-width: 500px;
+  text-align: center;
+  margin-inline: auto;
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  color: #25a2c3;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+header {
+  background-color: black;
+}
+
+.logo {
+  display: inline-block;
+  width: 40%;
+  object-fit: contain;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.start {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  padding-block: 20px;
+}
+
+.start p,
+h1 {
+  margin-inline: 10%;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f04c2f;
+  border: none;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 5px;
+  margin-block: 10px;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.firstblock {
+  padding: 10%;
+}
+
+.firstblock p {
+  margin-bottom: 10%;
+}
+
+.circle {
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.secondblock {
+  background-color: #ee2200;
+  padding: 10%;
+  color: white;
+  margin-bottom: 18%;
+}
+
+.secondblock h2 {
+  color: #ffffff;
+}
+
+.ceo {
+  font-size: 0.8em;
+  margin-top: -20px;
+}
+
+.box {
+  border: 1px solid #dee1e3;
+  margin-inline: 10%;
+  margin-top: 10%;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.box img {
+  display: inline-block;
+  width: 100%;
+  object-fit: contain;
+}
+
+.box p {
+  margin-inline: 10%;
+  margin-bottom: 10%;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+  padding-block: 10%;
+  margin-top: 20%;
+}
+
+footer h2,
+a {
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer hr {
+  border: none;
+  height: 1px;
+  background-color: white;
+  width: 50%;
+  margin-block: 5%;
+}
