@@ -36,8 +36,6 @@ h3 {
   font-size: 1.2em;
 }
 
-
-
 header {
   background-color: black;
   height: 5%;
@@ -50,7 +48,6 @@ header {
   object-fit: contain;
   margin: 2% 0 2% 2%;
   width: 20%;
-
 }
 
 .start {
@@ -91,12 +88,9 @@ h1 {
   width: 50%;
   vertical-align: middle;
   text-align: left;
-  font-size: 0.6em;
+  font-size: 0.7em;
   list-style-type: none;
-
 }
-
-
 
 .circle {
   width: 30%;
@@ -124,37 +118,38 @@ h1 {
   line-height: 0.5;
 }
 
-.container2 {
-  text-align:center;
-  margin-block: auto;
-  
+.ceo {
+  font-size: 0.7em;
+}
 
+.container2 {
+  text-align: center;
+  margin-block: auto;
+  width: 100%;
 }
 
 .box {
-  border: 1px solid #dee1e3;
   margin-inline: 2%;
   vertical-align: middle;
+  display: inline-block;
+  width: 27%;
+  font-size: 0.7em;
+  border: 1px solid #dee1e3;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
-  display: inline-block;
-  height: 300px;
-  width: 27%;
-  font-size: 0.6em;
 }
 
 .box img {
   display: inline-block;
   width: 100%;
-  object-fit: fill;
-  vertical-align:text-top;
-
-  }
+  height: 100%;
+  object-fit: contain;
+  vertical-align: middle;
+}
 
 .box p {
   margin-inline: 10%;
   margin-bottom: 10%;
-  
 }
 
 footer {
@@ -163,16 +158,12 @@ footer {
   padding-block: 5%;
   margin-top: 10%;
   font-size: 0.8em;
-  
-  
 }
 
 footer h1,
 a {
   color: white;
 }
-
-
 
 footer ul {
   list-style-type: none;
@@ -181,7 +172,6 @@ footer ul {
   text-align: left;
   width: 30%;
   margin-inline: auto;
-  
 }
 
 footer hr {
