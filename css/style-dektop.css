@@ -43,12 +43,11 @@ header {
   font-size: 1em;
 }
 
-.logo {
+.logo2 {
   display: inline-block;
+  width: 10%;
   object-fit: contain;
-  margin: 2% 0 2% 2%;
-  width: 20%;
-}
+  margin: 2% 0 2% 2%;}
 
 .start {
   background-image: url(../images/banner.jpg);
@@ -129,11 +128,11 @@ h1 {
 }
 
 .box {
+  width: 27%;
+  font-size: 0.7em;
   margin-inline: 2%;
   vertical-align: middle;
   display: inline-block;
-  width: 27%;
-  font-size: 0.7em;
   border: 1px solid #dee1e3;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -155,7 +154,7 @@ h1 {
 footer {
   background-color: #25a2c3;
   color: white;
-  padding-block: 5%;
+  padding-block: 3%;
   margin-top: 10%;
   font-size: 0.8em;
 }
@@ -179,5 +178,5 @@ footer hr {
   height: 1px;
   background-color: white;
   width: 30%;
-  margin-block: 5%;
+  margin-block: 3%;
 }
